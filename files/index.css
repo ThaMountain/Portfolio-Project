@@ -15,7 +15,9 @@ body {
   display: flex;
   flex-direction: column;
   height: 100%;
-  background-image: linear-gradient(
+  background: rgb(109,255,251);
+background: linear-gradient(180deg, rgba(109,255,251,1) 0%, rgba(10,0,162,1) 100%);
+  /* background-image: linear-gradient(
     135deg,
     #f02dcd 0%,
     hsl(303deg 81% 54%) 13%,
@@ -28,7 +30,7 @@ body {
     hsl(254deg 94% 58%) 85%,
     hsl(248deg 90% 57%) 93%,
     hsl(240deg 87% 56%) 100%
-  );
+  ); */
 }
 
 header {
@@ -42,7 +44,7 @@ header {
 #header-text {
   display: flex;
   flex-direction: column;
-  color: #efefef;
+  color: #014041;
   font-family: "Montserrat", sans-serif;
   text-align: center;
   padding: 50% 0 0 0;
