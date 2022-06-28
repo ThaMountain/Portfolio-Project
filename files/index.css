@@ -1,103 +1,58 @@
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap");
-
 * {
   box-sizing: border-box;
-  /* border: 2px solid black; */
   margin: 0;
   padding: 0;
 }
 
 html {
+  width: 100%;
   height: 300%;
 }
 
 body {
-  display: flex;
-  flex-direction: column;
-  height: 100%;
-  background: rgb(109, 255, 251);
-  background: linear-gradient(
-    180deg,
-    rgb(109, 255, 251) 0%,
-    rgba(10, 0, 162, 1) 100%
-  );
-  /* background-image: linear-gradient(
-    135deg,
-    #f02dcd 0%,
-    hsl(303deg 81% 54%) 13%,
-    hsl(294, 87%, 56%) 25%,
-    hsl(286deg 92% 58%) 36%,
-    hsl(280deg 84% 57%) 47%,
-    hsl(273deg 76% 55%) 57%,
-    hsl(267deg 83% 56%) 66%,
-    hsl(261deg 91% 57%) 76%,
-    hsl(254deg 94% 58%) 85%,
-    hsl(248deg 90% 57%) 93%,
-    hsl(240deg 87% 56%) 100%
-  ); */
-}
-
-header {
-  width: 100%;
-  height: 20%;
-  display: flex;
-  flex-direction: column;
-  /* justify-content: center; */
-}
-
-#header-text {
-  display: flex;
-  flex-direction: column;
-  color: #014041;
-  font-family: "Montserrat", sans-serif;
-  text-align: center;
-  padding: 50% 0 33.33% 0;
-}
-
-nav {
-  width: 100%;
-  height: 2em;
-  position: sticky;
-  top: 0;
-}
-
-.nav-list {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  list-style: none;
   width: 100%;
   height: 100%;
-}
-
-.nav-item {
   display: flex;
-  height: 100%;
-  width: 20%;
+  flex-direction: column;
+  background-color: #393d3f;
 }
 
-.nav-link {
+.nav-bar {
+  position: fixed;
+  width: 100%;
+  background-color: #353B3C;
+  height: 8%;
   display: flex;
   align-items: center;
-  justify-content: center;
-  width: 100%;
+  justify-content: space-around;
+  border-bottom: 2px solid white;
+
+}
+
+.nav-btn {
+  background-color: #EEF0F2;
+  padding: 2%;
+  border-radius: 5px;
   text-decoration: none;
-  font-family: "Montserrat", sans-serif;
-  color: white;
-  font-weight: bold;
-  font-size: 0.8em;
-  height: inherit;
-  background-color: #014041;
-  border-radius: 0.4em;
-  box-shadow: 0px 2px 4px 0px #000000;
+  color: black;
 }
 
-main {
+section {
+  height: 33.33%;
   display: flex;
-  width: 90%;
   justify-content: center;
+  align-items: center;
+  background-color: #C6C7C4;
 }
 
-#Main_Photo {
-  width: 2em;
+.box {
+  width: 80%;
+  height: 80%;
+  border: 3px solid white;
+  display: flex;
+  flex-direction: column;
+}
+
+.box>p {
+  text-align: center;
 }
